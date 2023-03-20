@@ -133,15 +133,15 @@ const projects = {
       project1: {
         name: 'TheLadder',
         description: 'A website for a community interest company that are repurposing an old community library into a creative hub. The app was built using Nuxt3 and StoryBlock for a CMS.',
-        techUsed: ['Typescript', 'Nuxt3', 'Storyblock'],
+        techUsed: ['Typescript', 'Nuxt3', 'Storyblock', 'Netlify'],
         git: {logo:'github', url: 'https://github.com/markgrahamdawson/theladder_rr_vue3'},
         linktolive: 'https://theladder-rr.netlify.app/',
       },
       project2: {
         name: 'Resume',
         description: 'A resume website.',
-        techUsed: ['Typescript', 'Nuxt3'],
-        git: {logo:'github', url: ''},
+        techUsed: ['Typescript', 'Nuxt3', 'GithubPages'],
+        git: {logo:'github', url: 'https://github.com/markgrahamdawson/resume'},
         linktolive: 'https://markgrahamdawson.github.io/',
       }
     }

@@ -32,7 +32,7 @@
               </div>
             </div>
             <div v-if="proj.linktolive" class="flex flex-col items-center justify-center">
-              <a :href="proj.linktolive" target="_blank"><IconsEye class=" w-12 h-12 p-2"/></a>
+              <a :href="proj.linktolive" target="_blank"><IconsEye class=" w-12 h-12 p-1"/></a>
               VIEW
             </div>
 
