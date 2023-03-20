@@ -1,29 +1,30 @@
 <template>
-  <div class="min-h-screen w-3/4 border border-black absolute right-0 bg-gray-200">
-    <div class="text-center">
-      <section id="about">
-        <About />
+  <div class="min-h-screen absolute right-0 bg-gray-200 w-full md:w-3/4">
+    <div class="text-center md:px-32 px-12 flex flex-col">
+      <section id="about" class="pt-20">
+        <About/>
       </section>
-      <section id="education">
-        <Education />
-      </section>
-      <section id="experience">
-        <Experience />
-      </section>
-      <section id="skills">
+      <section id="skills" class="pt-20">
         <Skills />
       </section>
-      <section id="interests">
-        <Interests />
-      </section>
-      <sectionid id="projects">
+      <sectionid id="projects" class="pt-20">
         <Projects />
       </sectionid>
+      <section id="experience" class="pt-20">
+        <Experience />
+      </section>
+      <section id="education" class="pt-20">
+        <Education />
+      </section>
+      <section id="interests" class="pt-20">
+        <Interests />
+      </section>
     </div>
   </div>
 </template>
 
 <script>
+import Header from '~~/components/Header.vue'
 import About from '~~/components/About.vue'
 import Education from '~~/components/Education.vue'
 import Experience from '~~/components/Experience.vue'

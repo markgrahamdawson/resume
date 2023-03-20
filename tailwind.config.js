@@ -15,7 +15,13 @@ module.exports = {
     },
     extend: {
       colors: {
-      }
+        resumegreen: {
+          DEFAULT: "#478448",
+          100: '#a6c2a5',
+          200: '#6e9d6d',
+          500: '#478448'
+        },
+      },
     },
   },
   plugins: [],
